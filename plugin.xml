@@ -79,6 +79,14 @@
                 <param name="android-package" value="com.transistorsoft.cordova.bggeo.CDVBackgroundGeolocation"/>
             </feature>
         </config-file>
+	    
+     <!-- Code injection to get it to work with Outsystems (LS)-->
+	<config-file parent="/manifest/application" target="app/src/main/AndroidManifest.xml">
+	    <meta-data
+		       android:name="com.transistorsoft.locationmanager.license_key"
+		       android:value="bad13ba955288329d3e64515f71ba105b0d7ce1a108d39891ee29dcd1c3e27a5" />
+	    </config-file>	    
+     <!-- /end code injection for Outsystems -->	    
      </platform>
 
      <!-- Browser (mock) -->
