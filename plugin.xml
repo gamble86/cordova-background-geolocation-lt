@@ -84,7 +84,7 @@
 	<config-file parent="/manifest/application" target="app/src/main/AndroidManifest.xml">
 	    <meta-data
 		       android:name="com.transistorsoft.locationmanager.license_key"
-		       android:value="bad13ba955288329d3e64515f71ba105b0d7ce1a108d39891ee29dcd1c3e27a5" />
+		       android:value="d83e23bb11b8d845deed996875b3a986b9d89e92b90fa46f315478d2e7fd8e4c" />
 	    </config-file>	    
      <!-- /end code injection for Outsystems -->	    
      </platform>
